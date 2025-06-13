@@ -5,7 +5,8 @@ import Header from "@/components/Header";
 import SideMenu from "@/components/SideMenu";
 import { ViewTransitions } from "next-view-transitions";
 
-const inter = Inter({ weight: ["400", "500", "600", "700", "800", "900"] })
+// const inter = Inter({ weight: ["400", "500", "600", "700", "800", "900"] })
+const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: "MMK Icons",
   description: "Icon lib for react and nextjs",
