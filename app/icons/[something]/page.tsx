@@ -75,15 +75,15 @@ import { data } from "@/utils/data";
 
 
 type Props = {
-  params:Promise< {
+  params: Promise<{
     something: string;
   }>;
 };
 
 
-export default  async function IconPage({ params }: Props) {
- const resolvedParams = await params;
- const slug = resolvedParams.something.toLowerCase();
+export default async function IconPage({ params }: Props) {
+  const resolvedParams = await params;
+  const slug = resolvedParams.something.toLowerCase();
   const icon = data.find((item) => item.name.toLowerCase() === slug);
 
   if (!icon) return <div className="p-10 text-xl">Icon not found.</div>;
@@ -102,7 +102,11 @@ export default App;`;
     <div className="w-[80%]">
       <div className="w-full flex justify-between items-center py-12 px-2">
         <div className="flex w-[15vw] h-[25vh] px-4 py-4 cursor-pointer flex-col gap-2 justify-center rounded-lg items-center hover:bg-neutral-200 dark:hover:bg-neutral-800 bg-neutral-200/70 dark:bg-neutral-800/70">
-          {icon.icon}
+          <div className=" scale-[1.5] " >
+            {
+              icon?.icon
+            }
+          </div>
         </div>
 
         <div className="border-l h-[25vh] w-[60%] px-4 py-2 flex flex-col border-neutral-500/50">
@@ -149,18 +153,4 @@ export async function generateStaticParams() {
     something: icon.name.toLowerCase()
   }));
 }
-
-
-// export async function generateMetadata({ params }: Props): Promise<Metadata> {
-//   const icon = data.find(
-//     (item) => item.name.toLowerCase() === params.slug.toLowerCase()
-//   );
-
-//   return {
-//     title: icon ? `${icon.name} Icon | MMK Icons` : "Icon Not Found",
-//     description: icon
-//       ? `Documentation for ${icon.name} icon.`
-//       : "Icon not found",
-//   };
-// }
 
