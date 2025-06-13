@@ -75,14 +75,15 @@ import { data } from "@/utils/data";
 
 
 type Props = {
-  params: {
+  params:Promise< {
     something: string;
-  };
+  }>;
 };
 
 
-export default async function IconPage({ params }: Props) {
-  const slug =params.something.toLowerCase();
+export default  async function IconPage({ params }: Props) {
+ const resolvedParams = await params;
+ const slug = resolvedParams.something.toLowerCase();
   const icon = data.find((item) => item.name.toLowerCase() === slug);
 
   if (!icon) return <div className="p-10 text-xl">Icon not found.</div>;
