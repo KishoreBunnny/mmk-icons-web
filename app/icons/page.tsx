@@ -23,28 +23,6 @@ function Icon({ icon, name, iconName }: { icon?: ReactNode; name?: string; iconN
 
 export default function Icons() {
 
-    const code = `1{
-2 "scripts": {
-3   "dev": "next dev",
-4   "build": "next build",
-5    "start": "next start",
-6    "lint": "next lint"
-7 }
-8}`
-
-    const code1 = `import { NextjsIcon } from 'mmk-icons';
-
-const App = () => {
-  return (
-    <NextjsIcon />
-  );
-};
-
-export default App;`
-
-
-
-
     return (
         <div className="w-[80%]" >
             <h1 className="text-3xl font-bold mb-4 " >Icons</h1>
