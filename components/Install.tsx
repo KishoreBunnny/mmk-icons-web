@@ -1,4 +1,3 @@
-import { Link } from "next-view-transitions";
 import CodeEditor from "./CodeEditor";
 import Footer from "./Footer";
 

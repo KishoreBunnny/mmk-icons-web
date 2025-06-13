@@ -1,9 +1,6 @@
-import CodeEditor from "@/components/CodeEditor";
 import Footer from "@/components/Footer";
 import { Link } from "next-view-transitions";
-import { XIcon, CssIcon, DevIcon, DockerIcon, ExpressIcon, GitIcon, GraphQlIcon, HtmlIcon, JsIcon, MongoDbIcon, NextjsIcon, NpmIcon, PostgresIcon, ReactIcon, ReduxIcon, SassIcon, SqlIcon, TailwindIcon, TsIcon, WebPackIcon, GitHubIcon } from "@/utils/icons";
 import { ReactNode } from "react";
-import { data } from "@/utils/data"
 import { normalIcons } from "@/utils/normalcons"
 import { Metadata } from "next";
 
