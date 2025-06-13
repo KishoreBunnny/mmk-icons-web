@@ -1,17 +1,11 @@
+import { Metadata } from "next";
 import Link from "next/link";
 
 
-// function Section({ title, description }: { title: string, description: string }) {
-//   return (
-//     <>
-//       <h2 className="text-xl font-bold mb-4 " >{title}</h2>
-//       <p className="text-md ml-2 ">{description}</p>
-
-//       <div className=" border-b border-neutral-500/50 mb-10 mt-10 " ></div>
-//     </>
-
-//   )
-// }
+export const metadata: Metadata = {
+  title: "MMK Icons",
+  description: "Welcome to the MMK icons documentation!",
+};
 
 
 export default function Home() {

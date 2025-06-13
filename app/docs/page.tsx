@@ -1,4 +1,11 @@
 import Footer from "@/components/Footer";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Docs",
+  description: "Documnetation of mmk",
+};
+
 
 export default function Docs(){
     return(

@@ -1,5 +1,11 @@
 import CodeEditor from "@/components/CodeEditor";
 import Footer from "@/components/Footer";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Usage",
+  description: "usage of icons ",
+};
 
 export default function Usage() {
 

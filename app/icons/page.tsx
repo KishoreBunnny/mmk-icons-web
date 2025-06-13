@@ -5,6 +5,13 @@ import { XIcon, CssIcon, DevIcon, DockerIcon, ExpressIcon, GitIcon, GraphQlIcon,
 import { ReactNode } from "react";
 import { data } from "@/utils/data"
 import { normalIcons } from "@/utils/normalcons"
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "MMK Icons",
+  description: "All icons of mmk",
+};
+
 
 
 function Icon({ icon, name, iconName }: { icon?: ReactNode; name?: string; iconName?: string }) {
