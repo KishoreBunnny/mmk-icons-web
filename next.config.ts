@@ -1,15 +1,4 @@
-// import type { NextConfig } from "next";
-
-// const nextConfig: NextConfig = {
-//   /* config options here */
-//   output: 'export',
-//   reactStrictMode: true,
-// };
-
-// export default nextConfig;
-
-
-/** @type {import('next').NextConfig} */
+@type {import('next').NextConfig} 
 const nextConfig = {
   //output: 'export',
   reactStrictMode: true,
@@ -21,13 +10,3 @@ const nextConfig = {
 module.exports = nextConfig;
 
 
-
-
-
-// /** @type {import('next').NextConfig} */
-// const nextConfig: import('next').NextConfig = {
-//   output: 'export',
-//   reactStrictMode: true,
-// };
-
-// module.exports = nextConfig;
