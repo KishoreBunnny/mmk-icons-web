@@ -61,17 +61,20 @@
 
 
 
-
 import CodeEditor from "@/components/CodeEditor";
 import { data } from "@/utils/data";
+import { Metadata } from "next";
 
-type IconPageProps = {
+// ✅ this is a server component — no "use client"
+
+type Props = {
   params: {
     slug: string;
   };
 };
 
-export default function IconPage({ params }: IconPageProps) {
+// ✅ Main Page Component (server-side, uses params)
+export default function IconPage({ params }: Props) {
   const slug = params.slug.toLowerCase();
   const icon = data.find((item) => item.name.toLowerCase() === slug);
 
@@ -141,11 +144,16 @@ export async function generateStaticParams() {
 }
 
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-  const icon = data.find(item => item.name.toLowerCase() === params.slug.toLowerCase());
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const icon = data.find(
+    (item) => item.name.toLowerCase() === params.slug.toLowerCase()
+  );
+
   return {
     title: icon ? `${icon.name} Icon | MMK Icons` : "Icon Not Found",
-    description: icon ? `Documentation for ${icon.name} icon.` : "Icon not found",
+    description: icon
+      ? `Documentation for ${icon.name} icon.`
+      : "Icon not found",
   };
 }
 
