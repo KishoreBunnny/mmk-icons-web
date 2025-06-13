@@ -1,3 +1,4 @@
+import { NpmIcon } from "@/utils/icons";
 import { Metadata } from "next";
 import Link from "next/link";
 
@@ -22,8 +23,9 @@ export default function Home() {
       <div className=" border-b border-neutral-500/50 mb-10 mt-10 " ></div>
 
       <h2 className="text-xl font-bold mb-4 " >How to use the docs</h2>
-      <p className="text-md ml-2" >Get started with <Link className="text-blue-500 text-md " href="/installation" >installation</Link> </p>
+      <p className="text-md ml-2" >Get started with <Link className="text-blue-500 hover:underline text-md " href="/installation" >installation</Link> </p>
       <p className="text-md ml-2">Use the sidebar to navigate through the sections, or search (Ctrl+K or Cmd+K) to quickly find a page.</p>
+      <Link target="_blank" href={"https://www.npmjs.com/package/mmk-icons"} className="text-md ml-2 flex m-2 gap-2 items-center " > <NpmIcon/> <p className="text-blue-500 hover:underline" >Check out npm package</p></Link>
 
       <div className="  border-b border-neutral-500/50 mb-10 mt-10 " ></div>
 
