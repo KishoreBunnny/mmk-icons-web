@@ -3,7 +3,7 @@ import {XIcon, ReactIcon,NextjsIcon,TailwindIcon,MongoDbIcon,PostgresIcon ,SqlIc
  export const  data = [
     {
         name: "reacticon",
-        icon: <ReactIcon className="scale-[3]" />,
+        icon: <ReactIcon className="scale-[3] " />,
         iconName:"ReactIcon"
     },
     {
