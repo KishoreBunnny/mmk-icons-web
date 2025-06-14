@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧩 mmk-icons
 
-## Getting Started
+A beautifully curated set of SVG developer icons — React, Next.js, TailwindCSS, GitHub, and more — built for seamless integration into **React** and **Next.js** projects.
 
-First, run the development server:
+## ✨ Features
+
+- ⚛️ Ready-to-use React components
+- 🎨 Full styling support (`className`, `fill`, `style`)
+- 🧩 Easy to scale, animate, and theme with Tailwind CSS or custom styles
+- 📦 Tree-shakable and lightweight
+
+---
+
+## 📦 Installation
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+npm install mmk-icons
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Basic Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+import { NextjsIcon } from 'mmk-icons';
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+const App = () => {
+  return <NextjsIcon />;
+};
 
-## Learn More
+export default App;
 
-To learn more about Next.js, take a look at the following resources:
+** Custom Styling **
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+import { NextjsIcon } from 'mmk-icons';
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+const App = () => {
+  return (
+    <NextjsIcon
+      className="text-neutral-900"
+      fill="white"
+      style={{ width: "30px", height: "30px" }}
+    />
+  );
+};
 
-## Deploy on Vercel
+export default App;
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- <NextjsIcon />
++ <NextjsIcon
++   className="text-neutral-900"
++   fill="white"
++   style={{ width: "30px", height: "30px" }}
++ />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Use any of the following:
+
+ReactIcon
+
+NextjsIcon
+
+TailwindIcon
+
+MongoDbIcon
+
+PostgresIcon
+
+SqlIcon
+
+HtmlIcon
+
+CssIcon
+
+JsIcon
+
+TsIcon
+
+ReduxIcon
+
+GraphQlIcon
+
+ExpressIcon
+
+DockerIcon
+
+GitIcon
+
+GoogleIcon
+
+GitHubIcon
+
+...and more
