@@ -19,7 +19,7 @@ import {XIcon, ReactIcon,NextjsIcon,TailwindIcon,MongoDbIcon,PostgresIcon ,SqlIc
     },
     {
         name: "mongodbicon",
-        icon: <MongoDbIcon className="scale-[3]" />,
+        icon: <MongoDbIcon className="scale-[3] " />,
         iconName:"MongoDbIcon"
     },
     {

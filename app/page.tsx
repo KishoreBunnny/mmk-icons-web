@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="w-[80%]" >
+    <div className="lg:w-[80%] w-[100%] lg:pr-0 pr-[2rem]  " >
       <h1 className="text-3xl font-bold mb-4 " > MMK Icons</h1>
       <p className="text-md ml-1  " >Welcome to the MMK icons documentation!</p>
 
@@ -37,7 +37,7 @@ export default function Home() {
 
       <h2 className="text-xl font-bold mb-4 " >Complete Set of Icons</h2>
       <p className="text-md ml-2 " >
-        As new applications with specific features arise, Lucide aims to provide a complete set of icons for every project. The community follows a set of design rules when designing new icons. These rules maintain standards for the icons, such as recognizability, consistency in style, and readability at all sizes. While creativity is valued in new icons, recognizable design conventions are important to ensure that the icons are easily identifiable by users.
+        As new applications with specific features arise, mmk aims to provide a complete set of icons for every project. The community follows a set of design rules when designing new icons. These rules maintain standards for the icons, such as recognizability, consistency in style, and readability at all sizes. While creativity is valued in new icons, recognizable design conventions are important to ensure that the icons are easily identifiable by users.
 
       </p> 
     </div>

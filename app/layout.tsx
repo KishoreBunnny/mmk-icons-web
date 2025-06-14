@@ -29,9 +29,9 @@ export default function RootLayout({
         >
           <Header />
 
-          <div className="w-[100vw] h-full flex  justify-center px-40 " >
+          <div className="w-[100vw]  h-full flex-col lg:flex-row flex  justify-center  lg:px-40 " >
             <SideMenu />
-            <div className=" min-h-[80vh] w-[80%] pl-5  scroll-smooth pt-10 px-2  " >
+            <div className="min-h-[80vh] w-[100%] lg:w-[80%] pl-5  scroll-smooth pt-10 px-2  " >
               {children}
             </div>
           </div>

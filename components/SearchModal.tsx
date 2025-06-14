@@ -53,8 +53,8 @@ export default function SearchModal({ open, containerRef, setOpen }: {
 
     return (
         <>
-            {!!open && <div className="fixed inset-0 z-50  bg-neutral-50/80 dark:bg-neutral-950/80 backdrop-blur-[0.5px] flex items-start justify-center pt-20">
-                <div ref={containerRef} className=" w-[40%] border border-neutral-500/50 max-h-[35rem] overflow-y-scroll bg-neutral-100 dark:bg-neutral-950 rounded-xl overflow-hidden   "  >
+            {!!open && <div className="fixed inset-0 z-[9999]  bg-neutral-50/80 dark:bg-neutral-950/80 backdrop-blur-[0.5px] flex items-start justify-center pt-20">
+                <div ref={containerRef} className=" w-[80%] lg:w-[40%] border border-neutral-500/50 max-h-[35rem] overflow-y-scroll bg-neutral-100 dark:bg-neutral-950 rounded-xl overflow-hidden   "  >
                     <form role="search" aria-label="Site search" className=" border-b border-neutral-500/50 sticky top-0 bg-neutral-100 dark:bg-neutral-950 " >
                         <input
                             ref={inputRef}
