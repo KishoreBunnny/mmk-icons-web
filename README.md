@@ -1,10 +1,5 @@
 # 🧩 mmk-icons
 
-[image]()
-
-![image](https://github.com/user-attachments/assets/62c94172-60f9-413d-82af-8128c8af9f65)
-
-
 A beautifully curated set of SVG developer icons — React, Next.js, TailwindCSS, GitHub, and more — built for seamless integration into **React** and **Next.js** projects.
 
 ## ✨ Features
@@ -17,7 +12,8 @@ A beautifully curated set of SVG developer icons — React, Next.js, TailwindCSS
 ---
 ## Npm Package
 
-[see npm package](https://www.npmjs.com/package/mmk-icons)
+[![image](https://github.com/user-attachments/assets/74cd9ba0-45e7-42b8-b8b1-71605c703953)
+](https://www.npmjs.com/package/mmk-icons)
 
 ## 📦 Installation
 
