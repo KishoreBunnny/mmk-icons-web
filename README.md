@@ -10,6 +10,9 @@ A beautifully curated set of SVG developer icons — React, Next.js, TailwindCSS
 - 📦 Tree-shakable and lightweight
 
 ---
+## Npm Package
+
+[see npm package](https://www.npmjs.com/package/mmk-icons)
 
 ## 📦 Installation
 
@@ -49,7 +52,7 @@ export default App;
 +   style={{ width: "30px", height: "30px" }}
 + />
 
-[see npm package](https://www.npmjs.com/package/mmk-icons)
+
 
 
 
