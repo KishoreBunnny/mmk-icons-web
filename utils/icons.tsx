@@ -474,7 +474,7 @@ const NetflixIcon: React.FC<IconProps> = (
 
 
 const SpotifyIcon: React.FC<IconProps> = (
-    { fill="#1DB954",
+    { fill = "#1DB954",
         className = "",
         style = {},
         ...props
@@ -497,33 +497,31 @@ const SpotifyIcon: React.FC<IconProps> = (
 
 
 
-
-
-export {
-    ReactIcon,
-    NextjsIcon,
-    TailwindIcon,
-    MongoDbIcon,
-    PostgresIcon,
-    SqlIcon,
-    HtmlIcon,
-    CssIcon,
-    JsIcon,
-    TsIcon,
-    NpmIcon,
-    ReduxIcon,
-    GraphQlIcon,
-    ExpressIcon,
-    DevIcon,
-    WebPackIcon,
-    SassIcon,
-    DockerIcon,
-    XIcon,
-    GitIcon,
-    GoogleIcon,
-    GitHubIcon,
-    PythonIcon,
-    AppleIcon,
-    NetflixIcon,
-    SpotifyIcon
-};
+        export {
+            ReactIcon,
+            NextjsIcon,
+            TailwindIcon,
+            MongoDbIcon,
+            PostgresIcon,
+            SqlIcon,
+            HtmlIcon,
+            CssIcon,
+            JsIcon,
+            TsIcon,
+            NpmIcon,
+            ReduxIcon,
+            GraphQlIcon,
+            ExpressIcon,
+            DevIcon,
+            WebPackIcon,
+            SassIcon,
+            DockerIcon,
+            XIcon,
+            GitIcon,
+            GoogleIcon,
+            GitHubIcon,
+            PythonIcon,
+            AppleIcon,
+            NetflixIcon,
+            SpotifyIcon,
+        };

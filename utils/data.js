@@ -1,4 +1,4 @@
-import {XIcon, ReactIcon,NextjsIcon,TailwindIcon,MongoDbIcon,PostgresIcon ,SqlIcon,HtmlIcon, CssIcon, JsIcon, TsIcon, NpmIcon, ReduxIcon, GraphQlIcon, ExpressIcon, DevIcon, SassIcon, WebPackIcon, DockerIcon, GitIcon, GoogleIcon, GitHubIcon, PythonIcon, AppleIcon, NetflixIcon, SpotifyIcon} from "./icons";
+import {XIcon, ReactIcon,NextjsIcon,TailwindIcon,MongoDbIcon,PostgresIcon ,SqlIcon,HtmlIcon, CssIcon, JsIcon, TsIcon, NpmIcon, ReduxIcon, GraphQlIcon, ExpressIcon, DevIcon, SassIcon, WebPackIcon, DockerIcon, GitIcon, GoogleIcon, GitHubIcon, PythonIcon, AppleIcon, NetflixIcon, SpotifyIcon, GoogleColoredIcon} from "./icons";
 
  export const  data = [
     {
