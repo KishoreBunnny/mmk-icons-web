@@ -32,7 +32,7 @@ export default App;`;
     <div className="lg:w-[80%] w-[80%] ">
       <div className="w-full flex flex-col gap-10 lg:flex-row  justify-between items-center py-12 px-2">
         <div className="flex w-[60vw] lg:w-[15vw] h-[25vh] px-4 py-4 cursor-pointer flex-col gap-2 justify-center rounded-lg items-center hover:bg-neutral-200 dark:hover:bg-neutral-800 bg-neutral-200/70 dark:bg-neutral-800/70">
-          <div className="scale-[1.6]  " >
+          <div className="scale-[2]  " >
             {
               icon?.icon
             }

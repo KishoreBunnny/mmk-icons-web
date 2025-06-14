@@ -21,6 +21,7 @@ import {
   GitIcon,
   GoogleIcon,
   GitHubIcon,
+  PythonIcon,
 } from "./icons";
 
 export const normalIcons = [
@@ -46,4 +47,5 @@ export const normalIcons = [
   { name: "giticon", icon: <GitIcon />, iconName: "GitIcon" },
   { name: "googleicon", icon: <GoogleIcon />, iconName: "GoogleIcon" },
   { name: "githubicon", icon: <GitHubIcon />, iconName: "GitHubIcon" },
+  { name: "pythonicon", icon: <PythonIcon />, iconName: "PythonIcon" },
 ];

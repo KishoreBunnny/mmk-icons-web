@@ -1,4 +1,4 @@
-import {XIcon, ReactIcon,NextjsIcon,TailwindIcon,MongoDbIcon,PostgresIcon ,SqlIcon,HtmlIcon, CssIcon, JsIcon, TsIcon, NpmIcon, ReduxIcon, GraphQlIcon, ExpressIcon, DevIcon, SassIcon, WebPackIcon, DockerIcon, GitIcon, GoogleIcon, GitHubIcon} from "./icons";
+import {XIcon, ReactIcon,NextjsIcon,TailwindIcon,MongoDbIcon,PostgresIcon ,SqlIcon,HtmlIcon, CssIcon, JsIcon, TsIcon, NpmIcon, ReduxIcon, GraphQlIcon, ExpressIcon, DevIcon, SassIcon, WebPackIcon, DockerIcon, GitIcon, GoogleIcon, GitHubIcon, PythonIcon} from "./icons";
 
  export const  data = [
     {
@@ -111,5 +111,6 @@ import {XIcon, ReactIcon,NextjsIcon,TailwindIcon,MongoDbIcon,PostgresIcon ,SqlIc
         name:"githubicon",
         icon:<GitHubIcon className=" scale-[3] " />,
         iconName:"GitHubIcon"
-    }
+    },
+     { name: "pythonicon", icon: <PythonIcon className=" scale-[3] " />, iconName: "PythonIcon" },
 ]
