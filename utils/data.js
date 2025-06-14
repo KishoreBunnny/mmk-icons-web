@@ -3,114 +3,114 @@ import {XIcon, ReactIcon,NextjsIcon,TailwindIcon,MongoDbIcon,PostgresIcon ,SqlIc
  export const  data = [
     {
         name: "reacticon",
-        icon: <ReactIcon className="scale-[3]"/>,
+        icon: <ReactIcon className=" w-full h-full "  />,
         iconName:"ReactIcon"
     },
     {
         name: "nextjsicon",
-        icon: <NextjsIcon className="scale-[3]" />,
+        icon: <NextjsIcon className=" w-full h-full "  />,
         iconName:"NextjsIcon"
 
     },
     {
         name: "tailwindicon",
-        icon: <TailwindIcon className="scale-[3]" />,
+        icon: <TailwindIcon className=" w-full h-full "   />,
         iconName:"TailwindIcon"
     },
     {
         name: "mongodbicon",
-        icon: <MongoDbIcon className="scale-[3] " />,
+        icon: <MongoDbIcon className=" w-full h-full "   />,
         iconName:"MongoDbIcon"
     },
     {
         name: "postgresicon",
-        icon: <PostgresIcon className="scale-[3]" />,
+        icon: <PostgresIcon className=" w-full h-full "   />,
         iconName:"PostgresIcon"
     },
     {
         name: "sqlicon",
-        icon: <SqlIcon className="scale-[3]" />,
+        icon: <SqlIcon className=" w-full h-full "  />,
         iconName:"SqlIcon"
     },
     {
         name: "htmlicon",
-        icon: <HtmlIcon className="scale-[3]" />,
+        icon: <HtmlIcon className=" w-full h-full "   />,
         iconName:"HtmlIcon"
     },
     {
         name: "cssicon",
-        icon: <CssIcon className="scale-[3]" />,
+        icon: <CssIcon className=" w-full h-full "   />,
         iconName:"CssIcon"
     },
     {
         name: "jsicon",
-        icon: <JsIcon className="scale-[3]" />,
+        icon: <JsIcon className=" w-full h-full "   />,
         iconName:"JsIcon"
     },
     {
         name: "tsicon",
-        icon: <TsIcon className="scale-[3]" />,
+        icon: <TsIcon className=" w-full h-full "   />,
         iconName:"TsIcon"
     },
     {
         name: "npmicon",
-        icon: <NpmIcon className="scale-[3]" />,
+        icon: <NpmIcon className=" w-full h-full "   />,
         iconName:"NpmIcon"
     },
     {
         name: "reduxicon",
-        icon: <ReduxIcon className="scale-[3]" />,
+        icon: <ReduxIcon className=" w-full h-full "   />,
         iconName:"ReduxIcon"
     },
     {
         name: "graphqlicon",
-        icon: <GraphQlIcon className="scale-[3]" />,
+        icon: <GraphQlIcon className=" w-full h-full "   />,
         iconName:"GraphQlIcon"
     },
     {
         name: "expressicon",
-        icon: <ExpressIcon className="scale-[3]" />,
+        icon: <ExpressIcon className=" w-full h-full "   />,
         iconName:"ExpressIcon"
     },
     {
         name: "devicon",
-        icon: <DevIcon className="scale-[3]" />,
+        icon: <DevIcon className=" w-full h-full "   />,
         iconName:"DevIcon"
     },
     {
         name: "webpackicon",
-        icon: <WebPackIcon className="scale-[3]" />,
+        icon: <WebPackIcon className=" w-full h-full "   />,
         iconName:"WebPackIcon"
     },
     {
         name: "sassicon",
-        icon: <SassIcon className="scale-[3]" />,
+        icon: <SassIcon className=" w-full h-full "   />,
         iconName:"SassIcon"
     },
     {
         name: "dockericon",
-        icon: <DockerIcon className="scale-[3]" />,
+        icon: <DockerIcon className=" w-full h-full "   />,
         iconName:"DockerIcon"
     },
     {
         name: "xicon",
-        icon: <XIcon className=' scale-[3] ' />,
+        icon: <XIcon className=" w-full h-full "    />,
         iconName:"XIcon"
     },
     {
         name: "giticon",
-        icon: <GitIcon className=" scale-[3] " />,
+        icon: <GitIcon className=" w-full h-full "  />,
         iconName:"GitIcon"
     },
     {
         name:"googleicon",
-        icon:<GoogleIcon className="scale-[3]" />,
+        icon:<GoogleIcon className=" w-full h-full "  />,
         iconName:"GoogleIcon"
     },
     {
         name:"githubicon",
-        icon:<GitHubIcon className=" scale-[3] " />,
+        icon:<GitHubIcon className=" w-full h-full "  />,
         iconName:"GitHubIcon"
     },
-     { name: "pythonicon", icon: <PythonIcon className=" scale-[3] " />, iconName: "PythonIcon" },
+     { name: "pythonicon", icon: <PythonIcon className=" w-full h-full " />, iconName: "PythonIcon" },
 ]
