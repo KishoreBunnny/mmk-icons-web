@@ -22,6 +22,9 @@ import {
   GoogleIcon,
   GitHubIcon,
   PythonIcon,
+  AppleIcon,
+  NetflixIcon,
+  SpotifyIcon,
 } from "./icons";
 
 export const normalIcons = [
@@ -48,4 +51,7 @@ export const normalIcons = [
   { name: "googleicon", icon: <GoogleIcon />, iconName: "GoogleIcon" },
   { name: "githubicon", icon: <GitHubIcon />, iconName: "GitHubIcon" },
   { name: "pythonicon", icon: <PythonIcon />, iconName: "PythonIcon" },
+  { name: "appleicon", icon: <AppleIcon />, iconName: "AppleIcon" },
+  { name: "netflixicon", icon: <NetflixIcon />, iconName: "NetflixIcon" },
+  { name: "spotifyicon", icon: <SpotifyIcon />, iconName: "SpotifyIcon" },
 ];

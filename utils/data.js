@@ -1,4 +1,4 @@
-import {XIcon, ReactIcon,NextjsIcon,TailwindIcon,MongoDbIcon,PostgresIcon ,SqlIcon,HtmlIcon, CssIcon, JsIcon, TsIcon, NpmIcon, ReduxIcon, GraphQlIcon, ExpressIcon, DevIcon, SassIcon, WebPackIcon, DockerIcon, GitIcon, GoogleIcon, GitHubIcon, PythonIcon} from "./icons";
+import {XIcon, ReactIcon,NextjsIcon,TailwindIcon,MongoDbIcon,PostgresIcon ,SqlIcon,HtmlIcon, CssIcon, JsIcon, TsIcon, NpmIcon, ReduxIcon, GraphQlIcon, ExpressIcon, DevIcon, SassIcon, WebPackIcon, DockerIcon, GitIcon, GoogleIcon, GitHubIcon, PythonIcon, AppleIcon, NetflixIcon, SpotifyIcon} from "./icons";
 
  export const  data = [
     {
@@ -113,4 +113,8 @@ import {XIcon, ReactIcon,NextjsIcon,TailwindIcon,MongoDbIcon,PostgresIcon ,SqlIc
         iconName:"GitHubIcon"
     },
      { name: "pythonicon", icon: <PythonIcon className=" w-full h-full " />, iconName: "PythonIcon" },
+     { name: "appleicon", icon: <AppleIcon className=" w-full h-full " />, iconName: "AppleIcon" },
+    { name: "netflixicon", icon: <NetflixIcon className=" w-full h-full " />, iconName: "NetflixIcon" },
+  { name: "spotifyicon", icon: <SpotifyIcon className=" w-full h-full "  />, iconName: "SpotifyIcon" },
+
 ]
