@@ -3,7 +3,6 @@ import { Link } from "next-view-transitions";
 import { ReactNode } from "react";
 import { normalIcons } from "@/utils/normalcons"
 import { Metadata } from "next";
-import IconLoadingSkeleton from "@/components/IconLoadingSkeleton";
 
 export const metadata: Metadata = {
     title: "MMK Icons",
