@@ -18,7 +18,7 @@ export default function Home() {
       <div className="  border-b border-neutral-500/50 mb-10 mt-10 " ></div>
 
       <h2 className="text-xl font-bold mb-4 " >What is MMK Icons</h2>
-      <p className="text-md ml-2 " >MMK is an open-source icon library that provides 22+ vector (svg) files for displaying icons and symbols in digital and non-digital projects. The library aims to make it easier for designers and developers to incorporate icons into their projects by providing several official packages to make it easier to use these icons in your project.</p>
+      <p className="text-md ml-2 " >MMK is an open-source icon library that provides 55+ vector (svg) files for displaying icons and symbols in digital and non-digital projects. The library aims to make it easier for designers and developers to incorporate icons into their projects by providing several official packages to make it easier to use these icons in your project.</p>
 
       <div className=" border-b border-neutral-500/50 mb-10 mt-10 " ></div>
 
